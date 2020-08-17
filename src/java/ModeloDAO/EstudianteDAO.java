@@ -109,7 +109,7 @@ public class EstudianteDAO implements CRUDEstudiante{
 
     @Override
     public boolean eliminarestudiante(int idestudiante) {
-             String consulta = " delete from esudiante "
+             String consulta = " delete from estudiante "
                         + " where "
                         + " idestudiante = " + idestudiante + "; ";
         try {

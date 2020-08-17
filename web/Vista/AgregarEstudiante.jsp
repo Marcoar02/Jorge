@@ -13,7 +13,7 @@
     </head>
     <body>
         <div class="container">
-            <form name="AgregarEstudianteForm" action="Controlador" method="get">
+            <form name="AgregarEstudianteForm" action="ControladorEstudiante" method="get">
                 <table  class="table">
                     <thead>
                         <tr>
@@ -43,7 +43,7 @@
                         </tr>
                         <tr>
                             <td colspan="2" class="text-center">
-                                <input class="btn-primary" type="submit" value="Agregar Estudiante" name="agregar" />
+                                <input class="btn btn-success btn-lg" type="submit" value="Agregar Estudiante" name="agregar" />
                                     
                             </td>
                         </tr>
